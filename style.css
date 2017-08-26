@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    min-height: 100%;
+    margin-bottom: -30px;
+}
+
+footer.footer,
+.footer-push {
+    height: 30px;
+}
+
+footer.footer {
+    padding-top: 5px;
+}
