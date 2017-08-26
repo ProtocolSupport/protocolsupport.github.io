@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ProtocolSupport</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://gitcdn.link/repo/Chalarangelo/mini.css/master/dist/mini-dark.min.css">
+</head>
+<body>
+<header class="sticky">
+    <a href="/" class="logo">ProtocolSupport</a>
+    <a href="/" class="button">Home</a>
+    <a href="/addons" class="button">Addons</a>
+    <a href="/support" class="button">Support</a>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-sm" style="text-align: center;">
+            <h1>ProtocolSupport <small>Keeping your server modern</small></h1>
+            <section class="section">
+                <p>
+                    ProtocolSupport allows modern Minecraft servers to serve users using older clients.
+                </p>
+                <p>
+                    We support clients running 1.12.*, 1.11.*, 1.10.*, 1.9.*, 1.8.*, 1.7.*, 1.6.*, 1.5.* and 1.4.7
+                </p>
+            </section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-8">
+            <h3>About</h3>
+            <p>
+                ProtocolSupport exists to solve the age-old problem of <em>"What do I do if my users refuse to update their client?"</em> in the most effective way possible.
+            </p>
+            <p>
+                With ProtocolSupport, you may continue to update your server whilst allowing your users to continue using the Minecraft versions they prefer. As a result,
+                everyone is happy - your server is up to date, and your users do not need to worry about updating.
+            </p>
+            <h3>How it works</h3>
+            <p>
+                ProtocolSupport is a protocol transformer. It hooks into the server's networking code, and waits for a connection. When a connection is made, ProtocolSupport
+                figures out what version the client is using, and translates the packets from it to the version the server understands. Then, when the server attempts
+                to send a packet to the client, it is translated back into the version the client understands.
+            </p>
+            <p>
+                Where blocks and items are present on the server but not on the client, they are replaced by something else. Most blocks are replaced by something of equal
+                hardness, to avoid issues related to the timing of breaking blocks. If you'd like to change how things are remapped, see the
+                <a href="/addons#ProtocolSupportStuff">ProtocolSupportStuff addon</a>.
+            </p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <h3>Downloads</h3>
+            <div class="warning card fluid">
+                <p>
+                    Please note that ProtocolSupport only supports the very latest version of Spigot or Glowstone.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>
+        &copy; 2017 ProtocolSupport Team | Licensed under the <a href="https://github.com/ProtocolSupport/protocolsupport.github.io/blob/master/LICENSE">GNU AGPL v3.0</a>
+    </p>
+</footer>
+</body>
+</html>
