@@ -1,18 +1,8 @@
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 .container {
-    min-height: 100%;
-    margin-bottom: -30px;
-}
-
-footer.footer,
-.footer-push {
-    height: 30px;
+    min-height: calc(100vh - 111px);
 }
 
 footer.footer {
+    height: 30px;
     padding-top: 5px;
 }
