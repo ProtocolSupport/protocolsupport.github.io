@@ -11,6 +11,10 @@ footer.footer {
     background-color: #7289DA !important;
     padding: 0.5rem !important;
     padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     display: block !important;
     height: calc(48px + 0.5rem);
 }
@@ -29,6 +33,10 @@ footer.footer {
 .github-button {
     padding: 0.5rem !important;
     padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     display: block !important;
     height: calc(48px + 0.5rem);
 }
