@@ -8,7 +8,6 @@ footer.footer {
 }
 
 .discord-button {
-    background-color: #7289DA !important;
     padding: 0.5rem !important;
     padding-bottom: 0 !important;
     padding-left: 0 !important;
@@ -17,10 +16,6 @@ footer.footer {
     margin-right: 0 !important;
     display: block !important;
     height: calc(48px + 0.5rem);
-}
-
-.discord-button:hover {
-    background-color: #5970C1 !important;
 }
 
 .discord-button img {
