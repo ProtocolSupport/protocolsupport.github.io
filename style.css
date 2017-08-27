@@ -6,6 +6,12 @@ footer.footer {
     padding-top: 5px;
 }
 
+.home-button {
+    padding: 0.5rem !important;
+    margin: 0 !important;
+    display: block !important;
+}
+
 .support-button {
     padding: 0.5rem !important;
     padding-bottom: 0 !important;
