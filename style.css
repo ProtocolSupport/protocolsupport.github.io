@@ -6,3 +6,40 @@ footer.footer {
     height: 30px;
     padding-top: 5px;
 }
+
+.discord-button {
+    background-color: #7289DA !important;
+    padding: 0.5rem !important;
+    padding-bottom: 0 !important;
+    display: block !important;
+    height: calc(48px + 0.5rem);
+}
+
+.discord-button:hover {
+    background-color: #3F56A7 !important;
+}
+
+.discord-button img {
+    height: 48px;
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+.github-button {
+    padding: 0.5rem !important;
+    padding-bottom: 0 !important;
+    display: block !important;
+    height: calc(48px + 0.5rem);
+}
+
+.github-button img {
+    height: 48px;
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+.faq-link {
+    float: right;
+}

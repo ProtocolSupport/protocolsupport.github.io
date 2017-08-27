@@ -16,13 +16,155 @@
     <meta property="og:locale" content="en_GB" />
     <meta property="og:site_name" content="ProtocolSupport" />
 </head>
-<body>
+<body id="nice-try">
 <header class="sticky">
     <a href="/" class="button">Home</a>
     <a href="/addons" class="button">Addons</a>
     <a href="/support" class="button">Support</a>
 </header>
 <div class="container">
+    <div class="row">
+        <div class="col-sm" style="text-align: center;">
+            <h1>Help! <small>I need somebody, not just anybody...</small></h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-8">
+            <h3>Frequently Asked Questions</h3>
+
+            <div class="fluid card" id="old">
+                <div class="section">
+                    <strong>Where do I find ProtocolSupport for an older version?</strong>
+                    <a href="#old" class="faq-link"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="section">Please see <a href="/old">this page</a> for information on unsupported versions.</div>
+            </div>
+
+            <div class="fluid card">
+                <div class="section" id="block-version">
+                    <strong>How do I block users using specific versions of the game?</strong>
+                    <a href="#block-version" class="faq-link"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="section">You can use the <a href="/addons#blockversion">BlockVersion Addon</a> for this.</div>
+            </div>
+
+            <div class="fluid card" id="mcpe-abandoned">
+                <div class="section">
+                    <strong>Why hasn't the MCPE branch been updated?</strong>
+                    <a href="#mcpe-abandoned" class="faq-link"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="section">
+                    MCPE support has been put on hold pending the introduction of server-side inventories to MCPE,
+                    which is currently slated for MCPE 1.2. It has not been abandoned.
+                </div>
+            </div>
+
+            <div class="fluid card" id="bungee">
+                <div class="section">
+                    <strong>Are you planning to support BungeeCord?</strong>
+                    <a href="#bungee" class="faq-link"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="section">
+                    <p>
+                        Yes!
+                    </p>
+                    <p>
+                        At present, if you only need to support users playing 1.8 or later, you do not need a plugin. If
+                        you want to support 1.7 as well, you should try
+                        <a href="https://github.com/HexagonMC/BungeeCord/releases">HexaCord</a>.
+                    </p>
+                    <p>
+                        For anything older than that, you'll need a Bungee plugin. We are
+                        <a href="https://github.com/ProtocolSupport/ProtocolSupportBungee">currently working on one</a>,
+                        but it's in the very early stages, and we don't recommend it for anything but testing at the
+                        moment.
+                    </p>
+                </div>
+            </div>
+
+            <div class="fluid card" id="old-stable">
+                <div class="section">
+                    <strong>Are you planning to ever release a stable version of ProtocolSupport for older versions of Spigot/Glowstone?</strong>
+                    <a href="#old-stable" class="faq-link"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="section">No.</div>
+            </div>
+
+            <div class="fluid card" id="old-why">
+                <div class="section">
+                    <strong>Why not?</strong>
+                    <a href="#old-why" class="faq-link"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="section">
+                    <p>
+                        There are a multitude of reasons for only supporting the latest version of the server:
+                    </p>
+                    <ul>
+                        <li>We are a small team and do not have time to maintain multiple versions</li>
+                        <li>Old versions are unsupported by Mojang and may contain bugs, exploits and other security issues</li>
+                        <li>The point of ProtocolSupport is that it allows you to keep your server up to date - supporting old servers doesn't make any sense</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="fluid card" id="old-bribe">
+                <div class="section">
+                    <strong>Can I pay you to produce a stable version of ProtocolSupport for an older version of Minecraft?</strong>
+                    <a href="#old-bribe" class="faq-link"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="section">No. Absolutely not.</div>
+            </div>
+
+            <div class="fluid card">
+                <div class="section">
+                    <strong>What's the secret phrase?</strong>
+                    <a href="#nice-try" class="faq-link"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="section"><code>I have tried the porkaxe method, and it didn't help.</code></div>
+            </div>
+
+            <div class="fluid card" id="next-update">
+                <div class="section">
+                    <strong>When will the next update be out?</strong>
+                    <a href="#next-update" class="faq-link"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="section">Soon&trade;</div>
+            </div>
+
+            <div class="fluid card" id="ask-directly">
+                <div class="section">
+                    <strong>Will any of these answers be different if I ask you directly?</strong>
+                    <a href="#ask-directly" class="faq-link"><i class="fa fa-link"></i></a>
+                </div>
+                <div class="section">No.</div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+            <h3>How To Get Support</h3>
+            <p>
+                If you've read the FAQ and can't find a solution to your problem, you have two options. If you have a
+                bug report, please head to GitHub and create a ticket there. Otherwise, feel free to join our Discord
+                server for some direct support.
+            </p>
+            <p>
+                Remember, if you're going to ask for support on Discord, please use the <code>#support</code> channel,
+                and include the secret phrase with your clearly-worded question.
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <a class="button github-button" href="https://github.com/ProtocolSupport/ProtocolSupport"><img src="/github-logo.png"></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <a class="button discord-button" href="https://discord.gg/x935y8p"><img src="/discord-logo.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="footer-push"></div>
 </div>
