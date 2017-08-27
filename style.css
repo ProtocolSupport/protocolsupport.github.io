@@ -28,3 +28,13 @@ footer.footer {
 .faq-link {
     float: right;
 }
+
+.fa-li {
+    margin-top: 3px;
+    color: red;
+}
+
+select.invalid {
+    border-color: #BB0000 !important;
+    background-color: #880000;
+}
