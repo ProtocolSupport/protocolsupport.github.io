@@ -7,7 +7,7 @@ footer.footer {
     padding-top: 5px;
 }
 
-.discord-button {
+.support-button {
     padding: 0.5rem !important;
     padding-bottom: 0 !important;
     padding-left: 0 !important;
@@ -18,25 +18,7 @@ footer.footer {
     height: calc(48px + 0.5rem);
 }
 
-.discord-button img {
-    height: 48px;
-    padding: 0;
-    margin: auto;
-    display: block;
-}
-
-.github-button {
-    padding: 0.5rem !important;
-    padding-bottom: 0 !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    display: block !important;
-    height: calc(48px + 0.5rem);
-}
-
-.github-button img {
+.support-button img {
     height: 48px;
     padding: 0;
     margin: auto;
