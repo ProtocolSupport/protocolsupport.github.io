@@ -1,9 +1,9 @@
 .container {
-    min-height: calc(100vh - 111px);
+    min-height: calc(100vh - 121px);
 }
 
 footer.footer {
-    height: 30px;
+    /*height: 30px;*/
     padding-top: 5px;
 }
 
