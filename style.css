@@ -13,10 +13,7 @@ footer.footer {
 }
 
 .support-button {
-    padding: 0.5rem !important;
-    padding-bottom: 0 !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding: 0.5rem 0 0 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     display: block !important;
