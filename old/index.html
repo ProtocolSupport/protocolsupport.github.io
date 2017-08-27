@@ -227,7 +227,7 @@
 <script type="application/javascript">
     var submitButton = document.getElementById("submit-quiz");
     var downloadsArea = document.getElementById("downloads-row");
-    var counterValue = 30;
+    var counterValue = 20;
     var timer = null;
 
     function setTimer(value) {
@@ -248,7 +248,7 @@
         }
     }
 
-    setTimer(30);
+    setTimer(20);
 
     timer = setInterval(
         function() {
@@ -290,7 +290,7 @@
             submitButton.disabled = true;
 
             if (failed) {
-                setTimer(30);
+                setTimer(10);
             } else {
                 clearInterval(timer);
                 document.getElementById("quiz").style.setProperty("display", "none", "");
