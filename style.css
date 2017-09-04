@@ -40,3 +40,8 @@ select.invalid {
     border-color: #BB0000 !important;
     background-color: #880000;
 }
+
+.support-anchor {
+    position: relative;
+    bottom: 3.5rem;
+}
